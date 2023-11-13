@@ -15,11 +15,8 @@ export default function Head() {
         property="og:description"
         content="Buy crypto directly to your wallet from your bank account with zero-fees."
       />
-      <meta
-        property="og:image"
-        content="https://developers.google.com/web/imgs/fireworks.jpg"
-      />
-      <meta property="og:url" content="https://openpeer.xyz/ogimage.png" />
+      <meta property="og:image" content="https://openpeer.xyz/ogimage.png" />
+      <meta property="og:url" content="https://openpeer.xyz/" />
       <meta property="og:type" content="website" />
       <link rel="icon" href="/favicon.png" />
     </>
