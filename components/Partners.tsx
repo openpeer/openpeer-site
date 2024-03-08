@@ -25,9 +25,6 @@ const Partners = () => {
 					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
 						<Image src={bitfwdLogoWhite} alt="Bitfwd" />
 					</div>
-					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
-						<Image src={ybbFoundationLtd} alt="YBB Foundation" />
-					</div>
 				</div>
 			</div>
 		</div>
