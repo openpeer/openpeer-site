@@ -15,6 +15,9 @@ import polygonLogoWhite from '../../../public/partners/polygonlogowhite.png';
 import w3iLogoWhite from '../../../public/partners/w3ilogowhite.png';
 import bitfwdLogoWhite from '../../../public/partners/bitfwdlogowhite.png';
 import ybbFoundationLtd from '../../../public/partners/ybbFoundation.png';
+import decorationDown from '../../../public/decoration-down.svg';
+import decorationUp from '../../../public/decoration-up.svg';
+import flags from '../../../public/flags.svg';
 
 interface FeatureParams {
   title: string
@@ -70,84 +73,147 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="w-full lg:w-4/5 mb-40 m-auto backdrop-blur-md border border-[#30353B] rounded-2xl transform bg-gradient-to-r from-[#3C9AAA]/50 to-transparent transition-all duration-1000 hover:scale-105"> */}
+
+        <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto">
+          <div className=" relative flex p-6 md:py-16 md:px-16 ">
+
+            <div className="border flex rounded-2xl">
+              <div className=" flex p-6 md:py-16 md:px-16 space-x-8">
+                <p className="text-white text-4xl font-light">
+                  Over 10k traders trade crypto P2P in over 100 fiat currencies with OpenPeer.</p>
+              </div>
+            </div>
+
+            <div className="z-10">
+              <div className="flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
+                <div>
+                  <Image
+                    src={flags}
+                    alt="Decoration Down"
+                    className="h-500"
+                  />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        
 
 
-    <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#30353B] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
-    <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
-    <div>
-    <p className="text-[#7BB1B6] text-6xl font-extrabold">
-    1
-    </p>
-    </div>
-    <div className="w-full">
-    <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
-    Decentralised & Self-Custodial
-    </p>
-    <p className="text-white text-4xl font-light">
-    Only you have access to your funds. Connect to OpenPeer with your self-custody wallet like Metamask. Interact with other traders through secure smart contracts.
-                                      </p>
-    </div>
-    </div>
-    </div>
+        <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full relative flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
 
-    <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#30353B] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
-    <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
-    <div>
-    <p className="text-[#7BB1B6] text-6xl font-extrabold">
-    2
-    </p>
-    </div>
-    <div className="w-full">
-    <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
-    Low Trading Fees & Zero Gas Fees
-    </p>
-    <p className="text-white text-4xl font-light">
-    OpenPeer sponsors all gas fees on the protocol so you don’t need to pay for onchain transactions. You only need to pay a 0.3% fee when selling crypto on the protocol.
-                                                                                                    </p>
-    </div>
-    </div>
-    </div>
+            <div>
+              <Image
+                src={decorationUp}
+                alt="Decoration Up"
+                className="absolute -left-20 -top-20"
+              />
+            </div>
 
-    <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#30353B] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
-    <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
-    <div>
-    <p className="text-[#7BB1B6] text-6xl font-extrabold">
-    3
-    </p>
-    </div>
-    <div className="w-full">
-    <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
-    Private & Secure
-    </p>
-    <p className="text-white text-4xl font-light">
-    KYC requirements are up to each individual trader and based on the rules within their country. Your private data is never held or can be accessed by OpenPeer.
-                                                                                                 </p>
-    </div>
-    </div>
-    </div>
+            {/* Content Box */}
+            <div className="border border-[#26282D] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg z-10">
+              <div className="flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
+                <div className="ml-4">
+                  <p className="text-white text-8xl font-extrabold">
+                    3
+                  </p>
+                </div>
+                <div className="w-full">
+                  <p className="text-white text-4xl font-light">
+                    Reasons why you should use OpenPeer for P2P crypto trading
+                  </p>
+                </div>
+              </div>
+            </div>
 
-		<div className="w-full flex justify-center items-center flex-col text-center mb-16 md:mb-40">
-			<h3 className="text-4xl mb-12">Backers and Partners</h3>
-			<div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
-				<div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-4 md:px-0 lg:grid-cols-4 lg:gap-4">
-					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						<Image src={outlierVentures} alt="Outlier Ventures" />
-					</div>
-					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						<Image src={polygonLogoWhite} alt="Polygon" />
-					</div>
-					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						<Image className="w-20" src={w3iLogoWhite} alt="W3i" />
-					</div>
-					<div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
-						<Image src={bitfwdLogoWhite} alt="Bitfwd" />
-					</div>
-				</div>
-			</div>
-		</div>     
-    
-    </div>
+            <div>
+              <Image
+                src={decorationDown}
+                alt="Decoration Down"
+                className="absolute -right-20 -bottom-20"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                1
+              </p>
+            </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Decentralised & Self-Custodial
+              </p>
+              <p className="text-white text-4xl font-light">
+                Only you have access to your funds. Connect to OpenPeer with your self-custody wallet like Metamask. Interact with other traders through secure smart contracts.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                2
+              </p>
+            </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Low Trading Fees & Zero Gas Fees
+              </p>
+              <p className="text-white text-4xl font-light">
+                OpenPeer sponsors all gas fees on the protocol so you don’t need to pay for onchain transactions. You only need to pay a 0.3% fee when selling crypto on the protocol.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                3
+              </p>
+            </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Private & Secure
+              </p>
+              <p className="text-white text-4xl font-light">
+                KYC requirements are up to each individual trader and based on the rules within their country. Your private data is never held or can be accessed by OpenPeer.
+              </p>
+            </div>
+          </div>
+        </div>
+
+		    <div className="w-full flex justify-center items-center flex-col text-center mb-16 md:mb-40">
+			    <h3 className="text-4xl mb-12">Backers and Partners</h3>
+			    <div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
+				    <div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-4 md:px-0 lg:grid-cols-4 lg:gap-4">
+					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+						    <Image src={outlierVentures} alt="Outlier Ventures" />
+					    </div>
+					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+						    <Image src={polygonLogoWhite} alt="Polygon" />
+					    </div>
+					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+						    <Image className="w-20" src={w3iLogoWhite} alt="W3i" />
+					    </div>
+					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
+						    <Image src={bitfwdLogoWhite} alt="Bitfwd" />
+					    </div>
+				    </div>
+			    </div>
+		    </div>     
+        
+      </div>
     </>
   )
 }
