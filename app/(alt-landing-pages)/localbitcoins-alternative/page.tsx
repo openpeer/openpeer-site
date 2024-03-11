@@ -70,13 +70,7 @@ export default function Home() {
           <div className="flex gap-4">
             <div className="text-center mt-0">
               <Link href="https://app.openpeer.xyz" target="_blank" className="self-start">
-                <ButtonAnimated title="START HERE" />
-              </Link>
-            </div>
-
-            <div className="text-center mt-0">
-              <Link href="https://app.openpeer.xyz" target="_blank">
-                <ButtonAnimated title="BOOK A DEMO" />
+                <ButtonAnimated title="GO TO APP" />
               </Link>
             </div>
 
