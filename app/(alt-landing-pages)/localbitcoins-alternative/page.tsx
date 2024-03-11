@@ -4,17 +4,13 @@ import "../../background.css"
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
-import HeroImage from "../../../public/illustrations/hero-image.png"
-import KeysImage from "../../../public/illustrations/keys.png"
-import GlobeImage from "../../../public/illustrations/globe.png"
-import NoChainImage from "../../../public/illustrations/nochain.png"
+import GlobeImage from "../../../public/globe.svg"
 import ButtonAnimated from "../../../components/Button/ButtonAnimated"
 import NavigationSite from "../../../components/Navigation"
 import outlierVentures from '../../../public/partners/outlierventures.png';
 import polygonLogoWhite from '../../../public/partners/polygonlogowhite.png';
 import w3iLogoWhite from '../../../public/partners/w3ilogowhite.png';
 import bitfwdLogoWhite from '../../../public/partners/bitfwdlogowhite.png';
-import ybbFoundationLtd from '../../../public/partners/ybbFoundation.png';
 import decorationDown from '../../../public/decoration-down.svg';
 import decorationUp from '../../../public/decoration-up.svg';
 import AR from '../../../public/flags/AR.svg';
@@ -36,8 +32,8 @@ interface FeatureParams {
 
 const Feature = ({ title, description, cta, url }: FeatureParams) => {
   return (
-    <div className="flex flex-col mb-12 backdrop-blur-md  border border-[#30353B] rounded-2xl p-8">
-      <h3 className="text-2xl mb-4">{title}</h3>
+    <div className="flex flex-col backdrop-blur-md border border-[#30353B] rounded-2xl p-4">
+      <h3 className="text-2xl">{title}</h3>
       <p className="font-normal text-base md:text-sm mb-4">{description}</p>
       <Link href={url}>
         <ButtonAnimated smallButton title={cta} />
@@ -54,46 +50,52 @@ export default function Home() {
           <Image
             src={GlobeImage}
             alt="Globe Image"
-            className="absolute top-24 md:-top-10 -z-20"
+            className="absolute -top-20 -z-20 right-0"
           />
         </div>
         <NavigationSite />
-        <div className="w-full flex flex-col items-center mt-24 mb-24">
-          <div className="text-center mb-10">
-            <h1 className="text-5xl lg:text-7xl font-bold antialiased">
-              Looking for a LocalBitcoins Alternative? <br className="hidden lg:block" />
+        <div className="w-full flex flex-col mt-24 mb-24">
+          <div className="text-center w-2/3">
+            <h1 className="text-5xl font-extrabold antialiased text-left">
+              Looking for a LocalBitcoins <br className="hidden lg:block" />
+              Alternative? <br className="hidden lg:block" />
               Say hello to OpenPeer
             </h1>
-            <p className="text-[#DBDBDB] text-xl">
-              Trade between crypto and fiat directly from your self-custodial wallet with zero-gas fees
+            <p className="text-[#DBDBDB] text-left text-2xl font-normal mt-8 mb-8">
+              Trade between crypto and fiat directly from your <br className="hidden lg:block" />self-custodial wallet with zero-gas fees
             </p>
+
           </div>
-          <div className="text-center mt-0 md:mt-10">
-            <Link href="https://app.openpeer.xyz" target="_blank">
-              <ButtonAnimated title="START HERE" />
-            </Link>
-          </div>
-          <div className="text-center mt-0 md:mt-10">
-            <Link href="https://app.openpeer.xyz" target="_blank">
-              <ButtonAnimated title="BOOK A DEMO" />
-            </Link>
+
+          <div className="flex gap-4">
+            <div className="text-center mt-0">
+              <Link href="https://app.openpeer.xyz" target="_blank" className="self-start">
+                <ButtonAnimated title="START HERE" />
+              </Link>
+            </div>
+
+            <div className="text-center mt-0">
+              <Link href="https://app.openpeer.xyz" target="_blank">
+                <ButtonAnimated title="BOOK A DEMO" />
+              </Link>
+            </div>
+
           </div>
         </div>
 
 
-        <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto">
-          <div className=" relative flex p-6 md:py-16 md:px-16 ">
-
-            <div className=" flex rounded-2xl">
-              <div className=" flex p-6 md:py-16 md:px-16 space-x-8">
+        <div className="w-full flex justify-between mb-16">
+          <div className=" relative flex">
+            <div className=" flex rounded-2xl mr-8">
+              <div className=" flex space-x-8">
                 <p className="text-white text-4xl font-light">
                   Over <span className="text-[#15B7DC] font-bold">10k traders</span> trade crypto P2P in <span className="text-[#15B7DC] font-bold">over 100 fiat currencies</span> with OpenPeer.
                 </p>
               </div>
             </div>
 
-            <div className="border border-[#26282D]  rounded-2xl backdrop-blur-lg z-10 z-10 border p-1 md:py-4 md:px-4 flex space-x-8 items-center justify-center">
-              <div className="flex flex-col space-y-4">
+            <div className="border border-[#26282D] rounded-2xl backdrop-blur-lg z-10 z-10 border p-8 flex space-x-8 items-center justify-center">
+              <div className="flex flex-col space-y-8">
                 <Image
                   src={NG}
                   alt="Nigeria"
@@ -105,7 +107,7 @@ export default function Home() {
                   className="rounded-full"
                 />
               </div>
-              <div className="flex flex-col space-y-4 ">
+              <div className="flex flex-col space-y-8">
                 <Image
                   src={GH}
                   alt="Ghana"
@@ -117,7 +119,7 @@ export default function Home() {
                   className="rounded-full"
                 />
               </div>
-              <div className="flex flex-col space-y-4 ">
+              <div className="flex flex-col space-y-8">
                 <Image
                   src={CN}
                   alt="China"
@@ -129,7 +131,7 @@ export default function Home() {
                   className="rounded-full"
                 />
               </div>
-              <div className="flex flex-col space-y-4 ">
+              <div className="flex flex-col space-y-8">
                 <Image
                   src={IN}
                   alt="India"
@@ -153,7 +155,7 @@ export default function Home() {
 
 
 
-        <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+        <div className="w-full flex mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
           <div className="w-full relative flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
 
             <div>
