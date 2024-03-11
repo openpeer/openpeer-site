@@ -17,7 +17,14 @@ import bitfwdLogoWhite from '../../../public/partners/bitfwdlogowhite.png';
 import ybbFoundationLtd from '../../../public/partners/ybbFoundation.png';
 import decorationDown from '../../../public/decoration-down.svg';
 import decorationUp from '../../../public/decoration-up.svg';
-import flags from '../../../public/flags.svg';
+import AR from '../../../public/flags/AR.svg';
+import CN from '../../../public/flags/CN.svg';
+import CO from '../../../public/flags/CO.svg';
+import EU from '../../../public/flags/EU.svg';
+import PH from '../../../public/flags/PH.svg';
+import GH from '../../../public/flags/GH.svg';
+import IN from '../../../public/flags/IN.svg';
+import NG from '../../../public/flags/NG.svg';
 
 interface FeatureParams {
   title: string
@@ -77,29 +84,73 @@ export default function Home() {
         <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto">
           <div className=" relative flex p-6 md:py-16 md:px-16 ">
 
-            <div className="border flex rounded-2xl">
+            <div className=" flex rounded-2xl">
               <div className=" flex p-6 md:py-16 md:px-16 space-x-8">
                 <p className="text-white text-4xl font-light">
-                  Over 10k traders trade crypto P2P in over 100 fiat currencies with OpenPeer.</p>
+                  Over <span className="text-[#15B7DC] font-bold">10k traders</span> trade crypto P2P in <span className="text-[#15B7DC] font-bold">over 100 fiat currencies</span> with OpenPeer.
+                </p>
               </div>
             </div>
 
-            <div className="z-10">
-              <div className="flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
-                <div>
-                  <Image
-                    src={flags}
-                    alt="Decoration Down"
-                    className="h-500"
-                  />
-                </div>
+            <div className="border border-[#26282D]  rounded-2xl backdrop-blur-lg z-10 z-10 border p-1 md:py-4 md:px-4 flex space-x-8 items-center justify-center">
+              <div className="flex flex-col space-y-4">
+                <Image
+                  src={NG}
+                  alt="Nigeria"
+                  className="rounded-full"
+                />
+                <Image
+                  src={PH}
+                  alt="Philippines"
+                  className="rounded-full"
+                />
+              </div>
+              <div className="flex flex-col space-y-4 ">
+                <Image
+                  src={GH}
+                  alt="Ghana"
+                  className="rounded-full"
+                />
+                <Image
+                  src={EU}
+                  alt="European Union"
+                  className="rounded-full"
+                />
+              </div>
+              <div className="flex flex-col space-y-4 ">
+                <Image
+                  src={CN}
+                  alt="China"
+                  className="rounded-full"
+                />
+                <Image
+                  src={AR}
+                  alt="Argentina"
+                  className="rounded-full"
+                />
+              </div>
+              <div className="flex flex-col space-y-4 ">
+                <Image
+                  src={IN}
+                  alt="India"
+                  className="rounded-full"
+                />
+                <Image
+                  src={CO}
+                  alt="Colombia"
+                  className="rounded-full"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <div className="text-6xl">+</div>
               </div>
             </div>
-            
+
+
           </div>
         </div>
 
-        
+
 
 
         <div className="w-full flex lg:w-4/5 mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
@@ -193,26 +244,26 @@ export default function Home() {
           </div>
         </div>
 
-		    <div className="w-full flex justify-center items-center flex-col text-center mb-16 md:mb-40">
-			    <h3 className="text-4xl mb-12">Backers and Partners</h3>
-			    <div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
-				    <div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-4 md:px-0 lg:grid-cols-4 lg:gap-4">
-					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						    <Image src={outlierVentures} alt="Outlier Ventures" />
-					    </div>
-					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						    <Image src={polygonLogoWhite} alt="Polygon" />
-					    </div>
-					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-						    <Image className="w-20" src={w3iLogoWhite} alt="W3i" />
-					    </div>
-					    <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
-						    <Image src={bitfwdLogoWhite} alt="Bitfwd" />
-					    </div>
-				    </div>
-			    </div>
-		    </div>     
-        
+        <div className="w-full flex justify-center items-center flex-col text-center mb-16 md:mb-40">
+          <h3 className="text-4xl mb-12">Backers and Partners</h3>
+          <div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
+            <div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-4 md:px-0 lg:grid-cols-4 lg:gap-4">
+              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+                <Image src={outlierVentures} alt="Outlier Ventures" />
+              </div>
+              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+                <Image src={polygonLogoWhite} alt="Polygon" />
+              </div>
+              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
+                <Image className="w-20" src={w3iLogoWhite} alt="W3i" />
+              </div>
+              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
+                <Image src={bitfwdLogoWhite} alt="Bitfwd" />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   )
