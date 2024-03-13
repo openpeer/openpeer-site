@@ -1,11 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import outlierVentures from '../public/partners/outlierventures.png';
-import polygonLogoWhite from '../public/partners/polygonlogowhite.png';
-import w3iLogoWhite from '../public/partners/w3ilogowhite.png';
-import bitfwdLogoWhite from '../public/partners/bitfwdlogowhite.png';
-import ybbFoundationLtd from '../public/partners/ybbFoundation.png';
+import outlierVentures from "../public/partners/outlierventures.png";
+import polygonLogoWhite from "../public/partners/polygonlogowhite.png";
+import w3iLogoWhite from "../public/partners/w3ilogowhite.png";
+import bitfwdLogoWhite from "../public/partners/bitfwdlogowhite.png";
+import ybbFoundationLtd from "../public/partners/ybbFoundation.png";
 
 const Partners = () => {
 	return (
