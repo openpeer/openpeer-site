@@ -138,7 +138,7 @@ export default function Home() {
             {
               title: "Wallets",
               description:
-                "Add OpenPeer to your self-custody wallet as a P2P fiat on/off ramp solution for your users. Quickly ntegrate our SDK and open up global markets for your business.",
+                "Add OpenPeer to your self-custody wallet as a P2P fiat on/off ramp solution for your users. Quickly integrate our SDK and open up global markets for your business.",
               cta: "Get in touch",
               url: "mailto:partners@openpeer.xyz"
             },

@@ -4,13 +4,20 @@ import "../../background.css"
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
-import HeroImage from "../../../public/illustrations/hero-image.png"
-import KeysImage from "../../../public/illustrations/keys.png"
-import GlobeImage from "../../../public/illustrations/globe.png"
-import NoChainImage from "../../../public/illustrations/nochain.png"
+import GlobeImage from "../../../public/globe.svg"
 import ButtonAnimated from "../../../components/Button/ButtonAnimated"
 import NavigationSite from "../../../components/Navigation"
+import decorationDown from '../../../public/decoration-down.svg';
+import decorationUp from '../../../public/decoration-up.svg';
 import Partners from "../../../components/Partners"
+import AR from '../../../public/flags/AR.svg';
+import CN from '../../../public/flags/CN.svg';
+import CO from '../../../public/flags/CO.svg';
+import EU from '../../../public/flags/EU.svg';
+import PH from '../../../public/flags/PH.svg';
+import GH from '../../../public/flags/GH.svg';
+import IN from '../../../public/flags/IN.svg';
+import NG from '../../../public/flags/NG.svg';
 
 interface FeatureParams {
   title: string
@@ -22,8 +29,8 @@ interface FeatureParams {
 
 const Feature = ({ title, description, cta, url }: FeatureParams) => {
   return (
-    <div className="flex flex-col mb-12 backdrop-blur-md  border border-[#30353B] rounded-2xl p-8">
-      <h3 className="text-2xl mb-4">{title}</h3>
+    <div className="flex flex-col backdrop-blur-md border border-[#30353B] rounded-2xl p-4">
+      <h3 className="text-2xl">{title}</h3>
       <p className="font-normal text-base md:text-sm mb-4">{description}</p>
       <Link href={url}>
         <ButtonAnimated smallButton title={cta} />
@@ -36,133 +43,202 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="w-full flex items-center justify-center">
+        <div className="w-full flex items-right">
           <Image
-            src={HeroImage}
-            alt="Hero Image"
-            className="absolute top-24 md:-top-10 -z-20"
+            src={GlobeImage}
+            alt="Globe Image"
+            className="absolute -top-20 -z-20 right-0"
           />
         </div>
         <NavigationSite />
-        <div className="w-full flex flex-col items-center mt-24 mb-24">
-          <div className="text-center mb-10">
-            <h1 className="text-5xl lg:text-7xl font-bold antialiased">
-              Decentralised P2P <br className="hidden lg:block" /> Exchange
+        <div className="w-full flex flex-col mt-24 mb-24">
+          <div className="text-center w-2/3">
+            <h1 className="text-6xl font-extrabold antialiased text-left">
+              Looking for a LocalCryptos <br className="hidden lg:block" />
+              Alternative? <br className="hidden lg:block" />
+              Say hello to OpenPeer
             </h1>
+            <p className="text-[#DBDBDB] text-left text-2xl font-normal mt-8 mb-8">
+              Trade between crypto and fiat directly from your <br className="hidden lg:block" />self-custodial wallet with zero-gas fees
+            </p>
+
           </div>
-          <div className="font-normal">
-            <div className="flex flex-row text-center space-x-4 text-2xl mb-8">
-              Buy crypto directly to your wallet from your{" "}
-              <br className="hidden md:block" /> bank account with zero-fees.
+
+          <div className="flex gap-4">
+            <div className="text-center mt-0">
+              <Link href="https://app.openpeer.xyz" target="_blank" className="self-start">
+                <ButtonAnimated title="GO TO APP" />
+              </Link>
             </div>
-          </div>
-          <div className="text-left mt-0 md:mt-10">
-            <Link href="https://app.openpeer.xyz" target="_blank">
-              <ButtonAnimated title="LAUNCH APP" />
-            </Link>
+
           </div>
         </div>
 
-        {/* <div className="w-full lg:w-4/5 mb-40 m-auto backdrop-blur-md border border-[#30353B] rounded-2xl transform bg-gradient-to-r from-[#3C9AAA]/50 to-transparent transition-all duration-1000 hover:scale-105"> */}
-        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#30353B] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
-          <div className="w-full flex flex-col-reverse lg:flex-row p-6 md:py-16 md:px-16 relative space-x-4 items-center">
-            <div className="w-full lg:w-1/2">
-              <div className="text-[#DBDBDB] text-xl mb-4">Decentralised</div>
-              <h3 className="text-5xl md:text-7xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#00D4E5] via-[#15B8DE]">
-                Your Keys, Your Coins
-              </h3>
-              <p className="text-[#DBDBDB] text-xl">
-                Only you control your crypto. Buy and sell crypto with fiat directly from
-                your self-custody wallet like Metamask and Trust Wallet. No need to hold
-                your funds on an exchange.
-              </p>
-            </div>
-            <div className="w-full lg:w-1/2 lg:self-end">
-              <Image className="md:ml-14" src={KeysImage} alt={""} />
-            </div>
-          </div>
-        </div>
 
-        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto backdrop-blur-md border border-[#30353B] rounded-2xl transform bg-gradient-to-l from-transparent to-transparent transition-all duration-1000 hover:scale-105 hover:bg-gradient-to-l">
-          <div className="w-full flex flex-col lg:flex-row p-6 md:py-16 md:px-16 relative items-center">
-            <div className="w-full lg:w-1/2">
-              <div className="relative flex justify-center lg:absolute lg:top-20 lg:left-10">
-                <Image src={GlobeImage} alt={""} />
+        <div className="w-full flex justify-between mb-16 md:py-16 md:px-16">
+          <div className=" relative flex">
+            <div className=" flex rounded-2xl mr-8">
+              <div className=" flex space-x-8 items-center">
+                <p className="text-white text-4xl font-light">
+                  Over <span className="text-[#15B7DC] font-bold">10k traders</span> trade crypto P2P in <span className="text-[#15B7DC] font-bold">over 100 fiat currencies</span> with OpenPeer.
+                </p>
               </div>
             </div>
-            <div className="w-full lg:w-1/2">
-              <div className="text-[#DBDBDB] text-xl mb-4">Any Place</div>
-              <h3 className="text-5xl md:text-7xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#00D4E5] via-[#15B8DE]">
-                Global Availability
-              </h3>
-              <p className="text-[#DBDBDB] text-xl">
-                Trade with anyone anywhere with any currency and payment method. OpenPeer
-                is an open protocol on Ethereum & other EVM-compatible networks.
+
+            <div className="hidden lg:flex border border-[#26282D] rounded-2xl backdrop-blur-lg z-10 p-8 flex items-center justify-center">
+              <div className="flex flex-col space-y-8 items-center justify-center">
+                <Image
+                  src={NG}
+                  alt="Nigeria"
+                  className="rounded-full svg-max-size"
+                />
+                <Image
+                  src={PH}
+                  alt="Philippines"
+                  className="rounded-full svg-max-size"
+                />
+              </div>
+              <div className="flex flex-col space-y-8 items-center justify-center">
+                <Image
+                  src={GH}
+                  alt="Ghana"
+                  className="rounded-full svg-max-size"
+                />
+                <Image
+                  src={EU}
+                  alt="European Union"
+                  className="rounded-full svg-max-size"
+                />
+              </div>
+              <div className="flex flex-col space-y-8 items-center justify-center w-90 h-180">
+                <Image
+                  src={CN}
+                  alt="China"
+                  className="rounded-full svg-max-size"
+                />
+                <Image
+                  src={AR}
+                  alt="Argentina"
+                  className="rounded-full svg-max-size"
+                />
+              </div>
+              <div className="flex flex-col space-y-8 items-center justify-center">
+                <Image
+                  src={IN}
+                  alt="India"
+                  className="rounded-full svg-max-size"
+                />
+                <Image
+                  src={CO}
+                  alt="Colombia"
+                  className="rounded-full svg-max-size"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <div className="text-6xl">+</div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+
+        <div className="w-full flex mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full relative flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
+
+            <div>
+              <Image
+                src={decorationUp}
+                alt="Decoration Up"
+                className="absolute -left-20 -top-20"
+              />
+            </div>
+
+            {/* Content Box */}
+            <div className="border border-[#26282D] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg z-10">
+              <div className="flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
+                <div className="ml-4">
+                  <p className="text-white text-8xl font-extrabold">
+                    3
+                  </p>
+                </div>
+                <div className="w-full">
+                  <p className="text-white text-4xl font-light">
+                    Reasons why you should use OpenPeer for P2P crypto trading
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <Image
+                src={decorationDown}
+                alt="Decoration Down"
+                className="absolute -right-20 -bottom-20"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                1
+              </p>
+            </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Decentralised & Self-Custodial
+              </p>
+              <p className="text-white text-4xl font-light">
+                Only you have access to your funds. Connect to OpenPeer with your self-custody wallet like Metamask. Interact with other traders through secure smart contracts.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto backdrop-blur-md border border-[#30353B] rounded-2xl transform bg-gradient-to-l from-transparent to-transparent transition-all duration-1000 hover:scale-105 hover:bg-gradient-to-l">
-          <div className="w-full flex flex-col-reverse lg:flex-row p-6 md:py-16 md:px-16 relative">
-            <div className="w-full lg:w-1/2">
-              <div className="text-[#DBDBDB] text-xl mb-4">Any Chain</div>
-              <h3 className="text-5xl md:text-7xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#00D4E5] via-[#15B8DE]">
-                Multichain Settlement
-              </h3>
-              <p className="text-[#DBDBDB] text-xl">
-                Trade between fiat and crypto on multiple EVM chains including Ethereum,
-                Polygon, Binance Smart Chain and Optimism. Get funds directly in your
-                wallet on the chain of your choice.
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                2
               </p>
             </div>
-            <div className="w-full lg:w-1/2">
-              <div className="relative flex justify-center lg:absolute lg:top-10 lg:right-20">
-                <Image src={NoChainImage} alt={""} />
-              </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Low Trading Fees & Zero Gas Fees
+              </p>
+              <p className="text-white text-4xl font-light">
+                OpenPeer sponsors all gas fees on the protocol so you don’t need to pay for onchain transactions. You only need to pay a 0.3% fee when selling crypto on the protocol.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-start">
+            <div>
+              <p className="text-[#7BB1B6] text-6xl font-extrabold">
+                3
+              </p>
+            </div>
+            <div className="w-full">
+              <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                Private & Secure
+              </p>
+              <p className="text-white text-4xl font-light">
+                KYC requirements are up to each individual trader and based on the rules within their country. Your private data is never held or can be accessed by OpenPeer.
+              </p>
             </div>
           </div>
         </div>
 
         <Partners />
 
-        <div className="flex flex-col justify-around mx-2 lg:mx-8 lg:space-x-8 lg:flex-row mb-24">
-          {[
-            {
-              title: "P2P Merchants",
-              description:
-                "Trade peer-to-peer with verified and high quality traders in your country. Get priority support from the OpenPeer team as you grow your trading business.",
-              cta: "Get in touch",
-              url: "mailto:merchants@openpeer.xyz"
-            },
-            {
-              title: "Wallets",
-              description:
-                "Add OpenPeer to your self-custody wallet as a P2P fiat on/off ramp solution for your users. Quickly ntegrate our SDK and open up global markets for your business.",
-              cta: "Get in touch",
-              url: "mailto:partners@openpeer.xyz"
-            },
-            {
-              title: "Dapps & Games",
-              description:
-                "Onboard users into any on-chain asset both fungible or non-fungible. Users choose the asset and their fiat currency and OpenPeer will do the rest.",
-              cta: "Get in touch",
-              url: "mailto:partners@openpeer.xyz"
-            }
-          ].map((item) => (
-            <Feature key={item.title} {...item} />
-          ))}
-        </div>
-
-        <div className="w-full lg:w-2/3 m-auto flex flex-col lg:flex-row items-center justify-center mb-24 md:space-x-10 bg-gradient-to-r from-[#020AD4]/50 to-transparent p-8 rounded-xl">
-          <div className="text-center space-x-4 text-2xl mb-10 pt-6">
-            Buy crypto directly to your wallet from your{" "}
-            <br className="hidden md:block" /> bank account with zero-fees.
-          </div>
-          <Link href="https://app.openpeer.xyz" target="_blank">
-            <ButtonAnimated title="LAUNCH APP" />
-          </Link>
-        </div>
       </div>
     </>
   )

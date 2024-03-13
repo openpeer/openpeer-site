@@ -7,12 +7,9 @@ import Link from "next/link"
 import GlobeImage from "../../../public/globe.svg"
 import ButtonAnimated from "../../../components/Button/ButtonAnimated"
 import NavigationSite from "../../../components/Navigation"
-import outlierVentures from '../../../public/partners/outlierventures.png';
-import polygonLogoWhite from '../../../public/partners/polygonlogowhite.png';
-import w3iLogoWhite from '../../../public/partners/w3ilogowhite.png';
-import bitfwdLogoWhite from '../../../public/partners/bitfwdlogowhite.png';
 import decorationDown from '../../../public/decoration-down.svg';
 import decorationUp from '../../../public/decoration-up.svg';
+import Partners from "../../../components/Partners"
 import AR from '../../../public/flags/AR.svg';
 import CN from '../../../public/flags/CN.svg';
 import CO from '../../../public/flags/CO.svg';
@@ -56,7 +53,7 @@ export default function Home() {
         <NavigationSite />
         <div className="w-full flex flex-col mt-24 mb-24">
           <div className="text-center w-2/3">
-            <h1 className="text-5xl font-extrabold antialiased text-left">
+            <h1 className="text-6xl font-extrabold antialiased text-left">
               Looking for a LocalBitcoins <br className="hidden lg:block" />
               Alternative? <br className="hidden lg:block" />
               Say hello to OpenPeer
@@ -78,63 +75,63 @@ export default function Home() {
         </div>
 
 
-        <div className="w-full flex justify-between mb-16">
+        <div className="w-full flex justify-between mb-16 md:py-16 md:px-16">
           <div className=" relative flex">
             <div className=" flex rounded-2xl mr-8">
-              <div className=" flex space-x-8">
+              <div className=" flex space-x-8 items-center">
                 <p className="text-white text-4xl font-light">
                   Over <span className="text-[#15B7DC] font-bold">10k traders</span> trade crypto P2P in <span className="text-[#15B7DC] font-bold">over 100 fiat currencies</span> with OpenPeer.
                 </p>
               </div>
             </div>
 
-            <div className="border border-[#26282D] rounded-2xl backdrop-blur-lg z-10 z-10 border p-8 flex space-x-8 items-center justify-center">
-              <div className="flex flex-col space-y-8">
+            <div className="hidden lg:flex border border-[#26282D] rounded-2xl backdrop-blur-lg z-10 p-8 flex items-center justify-center">
+              <div className="flex flex-col space-y-8 items-center justify-center">
                 <Image
                   src={NG}
                   alt="Nigeria"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
                 <Image
                   src={PH}
                   alt="Philippines"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
               </div>
-              <div className="flex flex-col space-y-8">
+              <div className="flex flex-col space-y-8 items-center justify-center">
                 <Image
                   src={GH}
                   alt="Ghana"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
                 <Image
                   src={EU}
                   alt="European Union"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
               </div>
-              <div className="flex flex-col space-y-8">
+              <div className="flex flex-col space-y-8 items-center justify-center w-90 h-180">
                 <Image
                   src={CN}
                   alt="China"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
                 <Image
                   src={AR}
                   alt="Argentina"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
               </div>
-              <div className="flex flex-col space-y-8">
+              <div className="flex flex-col space-y-8 items-center justify-center">
                 <Image
                   src={IN}
                   alt="India"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
                 <Image
                   src={CO}
                   alt="Colombia"
-                  className="rounded-full"
+                  className="rounded-full svg-max-size"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -240,25 +237,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center flex-col text-center mb-16 md:mb-40">
-          <h3 className="text-4xl mb-12">Backers and Partners</h3>
-          <div className="w-full flex flex-col justify-center items-center md:flex-row gap-8">
-            <div className="grid grid-cols-3 gap-1 px-3 sm:grid-cols-4 md:px-0 lg:grid-cols-4 lg:gap-4">
-              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-                <Image src={outlierVentures} alt="Outlier Ventures" />
-              </div>
-              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-                <Image src={polygonLogoWhite} alt="Polygon" />
-              </div>
-              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent h-16">
-                <Image className="w-20" src={w3iLogoWhite} alt="W3i" />
-              </div>
-              <div className="flex items-center justify-center rounded-md border border-white/20 p-2 hover:bg-gradient-to-r from-[#010AD4]/50 to-transparent] h-16">
-                <Image src={bitfwdLogoWhite} alt="Bitfwd" />
-              </div>
-            </div>
-          </div>
-        </div>
+        <Partners />
 
       </div>
     </>
