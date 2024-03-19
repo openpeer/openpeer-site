@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Image from 'next/image';
+
 import logo from '../public/logo.svg';
 import twitterLogo from '../public/twitter.svg';
 import discord from '../public/discord.svg';
