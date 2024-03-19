@@ -15,6 +15,10 @@
 	max-height: 75%; /* Prevents the SVG from exceeding the height of its container */
   }
 
+  .how-to-image {
+	width: 10%;
+  }
+
   
 
 @layer base {

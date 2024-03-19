@@ -14,7 +14,7 @@ const ThreeReasons = () => {
                         <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
                             Decentralised & Self-Custodial
                         </p>
-                        <p className="text-white text-4xl font-light">
+                        <p className="text-white text-3xl font-light">
                             Only you have access to your funds. Connect to OpenPeer with your self-custody wallet like Metamask. Interact with other traders through secure smart contracts.
                         </p>
                     </div>
@@ -29,7 +29,7 @@ const ThreeReasons = () => {
                         </p>
                     </div>
                     <div className="w-full">
-                        <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
+                        <p className="text-[#7BB1B6] text-3xl font-light mb-8 mt-4">
                             Low Trading Fees & Zero Gas Fees
                         </p>
                         <p className="text-white text-4xl font-light">
@@ -50,7 +50,7 @@ const ThreeReasons = () => {
                         <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
                             Private & Secure
                         </p>
-                        <p className="text-white text-4xl font-light">
+                        <p className="text-white text-3xl font-light">
                             KYC requirements are up to each individual trader and based on the rules within their country. Your private data is never held or can be accessed by OpenPeer.
                         </p>
                     </div>
