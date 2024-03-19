@@ -10,6 +10,7 @@ import NavigationSite from "../../../components/Navigation"
 import decorationDown from '../../../public/decoration-down.svg';
 import decorationUp from '../../../public/decoration-up.svg';
 import Partners from "../../../components/Partners"
+import CountrySelector from "../../../components/CountrySelector"
 import Tokens from '../../../public/stablecoins/USDT.svg';
 
 export default function Home() {
@@ -66,6 +67,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <CountrySelector />
 
         <Partners />
 

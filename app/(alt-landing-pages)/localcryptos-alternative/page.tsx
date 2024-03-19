@@ -55,7 +55,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className="w-full flex justify-between mb-16 md:py-16 md:px-16">
           <div className=" relative flex">
             <div className=" flex rounded-2xl mr-8">
@@ -123,7 +122,7 @@ export default function Home() {
         </div>
 
         <div className="w-full flex mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
-          <div className="w-full relative flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
+          <div className="w-full flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
 
             <div>
               <Image

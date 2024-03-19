@@ -10,6 +10,13 @@
 	max-height: 66%; /* Prevents the SVG from exceeding the height of its container */
   }
 
+  .svg-max-flags {
+	max-width: 75%; /* Prevents the SVG from exceeding the width of its container */
+	max-height: 75%; /* Prevents the SVG from exceeding the height of its container */
+  }
+
+  
+
 @layer base {
 	html {
 		font-family: Outfit, system-ui, sans-serif;
