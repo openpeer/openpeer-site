@@ -20,26 +20,6 @@ import GH from '../../../public/flags/GH.svg';
 import IN from '../../../public/flags/IN.svg';
 import NG from '../../../public/flags/NG.svg';
 
-interface FeatureParams {
-  title: string
-  description: string
-  // image?: StaticImageData;
-  cta: string
-  url: string
-}
-
-const Feature = ({ title, description, cta, url }: FeatureParams) => {
-  return (
-    <div className="flex flex-col backdrop-blur-md border border-[#30353B] rounded-2xl p-4">
-      <h3 className="text-2xl">{title}</h3>
-      <p className="font-normal text-base md:text-sm mb-4">{description}</p>
-      <Link href={url}>
-        <ButtonAnimated smallButton title={cta} />
-      </Link>
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <>
@@ -139,13 +119,8 @@ export default function Home() {
                 <div className="text-6xl">+</div>
               </div>
             </div>
-
-
           </div>
         </div>
-
-
-
 
         <div className="w-full flex mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
           <div className="w-full relative flex p-6 md:py-16 md:px-16 relative space-x-8 items-center justify-center">
