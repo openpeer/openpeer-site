@@ -1,9 +1,9 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import logo from '../public/logo.svg';
-import twitterLogo from '../public/twitter.svg';
-import discord from '../public/discord.svg';
+import logo from "../public/logo.svg";
+import twitterLogo from "../public/twitter.svg";
+import discord from "../public/discord.svg";
 
 const FooterSite = () => {
   return (
@@ -35,7 +35,10 @@ const FooterSite = () => {
             Terms
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#020AD4] transition-all group-hover:w-full"></span>
           </a>
-          <a href="/privacy-policy" className="md:px-2 text-base relative group">
+          <a
+            href="/privacy-policy"
+            className="md:px-2 text-base relative group"
+          >
             Privacy Policy
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#020AD4] transition-all group-hover:w-full"></span>
           </a>
@@ -45,7 +48,12 @@ const FooterSite = () => {
             rel="noreferrer"
             className="md:px-2 text-base relative group"
           >
-            <Image src={twitterLogo} alt="openpeer logo" width={18} height={18} />
+            <Image
+              src={twitterLogo}
+              alt="openpeer logo"
+              width={18}
+              height={18}
+            />
           </a>
           <a
             href="https://discord.gg/Wrf9BT8sZN"

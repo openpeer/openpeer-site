@@ -9,7 +9,6 @@ import NavigationSite from "../../../../components/Navigation"
 import decorationDown from '../../../../public/decoration-down.svg';
 import decorationUp from '../../../../public/decoration-up.svg';
 import Partners from "../../../../components/Partners"
-import CountrySelector from "../../../../components/CountrySelector"
 import Tokens from '../../../../public/stablecoins/USDT.svg';
 import ThreeReasons from "../../../../components/ThreeReasons"
 import ar from '../../../../public/flags/how-to-buy/ar.svg';
