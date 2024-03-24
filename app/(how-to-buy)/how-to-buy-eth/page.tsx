@@ -10,8 +10,9 @@ import NavigationSite from "../../../components/Navigation"
 import decorationDown from '../../../public/decoration-down.svg';
 import decorationUp from '../../../public/decoration-up.svg';
 import Partners from "../../../components/Partners"
-import CountrySelectorUSDT from "../../../components/CountrySelectorUSDT"
-import USDT from '../../../public/stablecoins/USDT.svg';
+import CountrySelectorETH from "../../../components/CountrySelectorETH"
+import ETH from '../../../public/stablecoins/ETH.svg';
+import CountrySelector from "../../../components/CountrySelectorUSDT"
 
 export default function Home() {
   return (
@@ -37,17 +38,17 @@ export default function Home() {
                 <div className="w-full flex-col">
                   <div className="flex justify-center items-center">
                     <p className="text-white text-5xl text-center font-extrabold m-2">
-                      How to buy USDT
+                      How to buy ETH
                       <Image
-                        src={USDT}
-                        alt="USDT"
-                        className="mb-2 ml-4 inline-block"
+                        src={ETH}
+                        alt="ETH"
+                        className=" mb-2 ml-2 inline-block"
                       />
                     </p>
                   </div>
                   <div>
                     <p className="text-white text-2xl text-center font-normal m-8">
-                      Learn how to buy USDT by trading P2P on OpenPeer</p>
+                      Learn how to buy ETH by trading P2P on OpenPeer</p>
                   </div>
                   <div className="flex gap-4 justify-center">
                     <Link href="https://app.openpeer.xyz" target="_blank" className="self-start text-center">
@@ -68,7 +69,7 @@ export default function Home() {
           </div>
         </div>
 
-        <CountrySelectorUSDT />
+        <CountrySelectorETH />
 
         <Partners />
 
