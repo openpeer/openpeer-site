@@ -1,23 +1,23 @@
-"use client"
-import "./background.css"
+"use client";
+import "./background.css";
 
-import Image, { StaticImageData } from "next/image"
-import Link from "next/link"
+import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
-import HeroImage from "../public/illustrations/hero-image.png"
-import KeysImage from "../public/illustrations/keys.png"
-import GlobeImage from "../public/illustrations/globe.png"
-import NoChainImage from "../public/illustrations/nochain.png"
-import ButtonAnimated from "../components/Button/ButtonAnimated"
-import NavigationSite from "../components/Navigation"
-import Partners from "../components/Partners"
+import HeroImage from "../public/illustrations/hero-image.png";
+import KeysImage from "../public/illustrations/keys.png";
+import GlobeImage from "../public/illustrations/globe.png";
+import NoChainImage from "../public/illustrations/nochain.png";
+import ButtonAnimated from "../components/Button/ButtonAnimated";
+import NavigationSite from "../components/Navigation";
+import Partners from "../components/Partners";
 
 interface FeatureParams {
-  title: string
-  description: string
+  title: string;
+  description: string;
   // image?: StaticImageData;
-  cta: string
-  url: string
+  cta: string;
+  url: string;
 }
 
 const Feature = ({ title, description, cta, url }: FeatureParams) => {
@@ -29,8 +29,8 @@ const Feature = ({ title, description, cta, url }: FeatureParams) => {
         <ButtonAnimated smallButton title={cta} />
       </Link>
     </div>
-  )
-}
+  );
+};
 
 export default function Home() {
   return (
@@ -72,9 +72,9 @@ export default function Home() {
                 Your Keys, Your Coins
               </h3>
               <p className="text-[#DBDBDB] text-xl">
-                Only you control your crypto. Buy and sell crypto with fiat directly from
-                your self-custody wallet like Metamask and Trust Wallet. No need to hold
-                your funds on an exchange.
+                Only you control your crypto. Buy and sell crypto with fiat
+                directly from your self-custody wallet like Metamask and Trust
+                Wallet. No need to hold your funds on an exchange.
               </p>
             </div>
             <div className="w-full lg:w-1/2 lg:self-end">
@@ -96,8 +96,9 @@ export default function Home() {
                 Global Availability
               </h3>
               <p className="text-[#DBDBDB] text-xl">
-                Trade with anyone anywhere with any currency and payment method. OpenPeer
-                is an open protocol on Ethereum & other EVM-compatible networks.
+                Trade with anyone anywhere with any currency and payment method.
+                OpenPeer is an open protocol on Ethereum & other EVM-compatible
+                networks.
               </p>
             </div>
           </div>
@@ -111,9 +112,9 @@ export default function Home() {
                 Multichain Settlement
               </h3>
               <p className="text-[#DBDBDB] text-xl">
-                Trade between fiat and crypto on multiple EVM chains including Ethereum,
-                Polygon, Binance Smart Chain and Optimism. Get funds directly in your
-                wallet on the chain of your choice.
+                Trade between fiat and crypto on multiple EVM chains including
+                Ethereum, Polygon, Binance Smart Chain and Optimism. Get funds
+                directly in your wallet on the chain of your choice.
               </p>
             </div>
             <div className="w-full lg:w-1/2">
@@ -133,22 +134,22 @@ export default function Home() {
               description:
                 "Trade peer-to-peer with verified and high quality traders in your country. Get priority support from the OpenPeer team as you grow your trading business.",
               cta: "Get in touch",
-              url: "mailto:merchants@openpeer.xyz"
+              url: "mailto:merchants@openpeer.xyz",
             },
             {
               title: "Wallets",
               description:
                 "Add OpenPeer to your self-custody wallet as a P2P fiat on/off ramp solution for your users. Quickly integrate our SDK and open up global markets for your business.",
               cta: "Get in touch",
-              url: "mailto:partners@openpeer.xyz"
+              url: "mailto:partners@openpeer.xyz",
             },
             {
               title: "Dapps & Games",
               description:
                 "Onboard users into any on-chain asset both fungible or non-fungible. Users choose the asset and their fiat currency and OpenPeer will do the rest.",
               cta: "Get in touch",
-              url: "mailto:partners@openpeer.xyz"
-            }
+              url: "mailto:partners@openpeer.xyz",
+            },
           ].map((item) => (
             <Feature key={item.title} {...item} />
           ))}
@@ -165,5 +166,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  )
+  );
 }

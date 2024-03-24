@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+
 import logo from '../public/logo-dark.svg';
 import twitterLogo from '../public/twitter-dark.svg';
 import discord from '../public/discord-dark.svg';
