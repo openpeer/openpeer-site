@@ -46,8 +46,8 @@ const CountrySelector = () => {
       </div>
 
       <div className="w-full lg:w-4/5 mb-16 md:mb-32 m-auto border border-[#4A4C50] rounded-2xl lg:transition-all lg:duration-1000 lg:hover:scale-105 backdrop-blur-lg">
-        <div className="w-full flex flex-col p-6 space-y-8 justify-center items-center md:flex-row md:space-y-0 md:space-x-8 md:py-16 md:pl-16 md:px-16 relative">
-          <div className="w-full flex flex-col space-y-8 items-left justify-center">
+        <div className="w-full flex flex-col p-6 space-y-8 justify-center items-start md:flex-row md:space-y-0 md:space-x-5 md:py-10 md:pl-10 md:px-10 relative">
+          <div className="w-full md:w-1/3 flex flex-col space-y-8 items-left justify-center">
             <div className="flex items-center">
               <div>
                 <Image
@@ -56,9 +56,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Argentina" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Argentina
                   </p>
                 </Link>
@@ -73,9 +73,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Bulgaria" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Bulgaria
                   </p>
                 </Link>
@@ -90,9 +90,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Colombia" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Colombia
                   </p>
                 </Link>
@@ -100,16 +100,16 @@ const CountrySelector = () => {
             </div>
 
             <div className="flex items-center">
-              <div>
+              <div >
                 <Image
                   src={fr}
                   alt="France"
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/France" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     France
                   </p>
                 </Link>
@@ -124,9 +124,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Greece" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Greece
                   </p>
                 </Link>
@@ -141,9 +141,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Indonesia" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Indonesia
                   </p>
                 </Link>
@@ -158,9 +158,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Latvia" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Latvia
                   </p>
                 </Link>
@@ -175,9 +175,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Mexico" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Mexico
                   </p>
                 </Link>
@@ -192,9 +192,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Peru" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Peru
                   </p>
                 </Link>
@@ -209,9 +209,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/South-Africa" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     South Africa
                   </p>
                 </Link>
@@ -226,9 +226,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Turkey" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Turkey
                   </p>
                 </Link>
@@ -236,7 +236,7 @@ const CountrySelector = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col space-y-8 items-left justify-center">
+          <div className="w-full md:w-1/3 flex flex-col space-y-8 items-left justify-center">
             <div className="flex items-center">
               <div>
                 <Image
@@ -245,9 +245,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Australia" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Australia
                   </p>
                 </Link>
@@ -262,9 +262,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Cameroon" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Cameroon
                   </p>
                 </Link>
@@ -279,9 +279,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Ecuador" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ecuador
                   </p>
                 </Link>
@@ -296,9 +296,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Germany" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Germany
                   </p>
                 </Link>
@@ -313,9 +313,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Hong-Kong" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Hong Kong
                   </p>
                 </Link>
@@ -330,9 +330,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Italy" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Italy
                   </p>
                 </Link>
@@ -347,9 +347,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Lebanon" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Lebanon
                   </p>
                 </Link>
@@ -364,9 +364,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Nigeria" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Nigeria
                   </p>
                 </Link>
@@ -381,10 +381,10 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
-                <Link href="/how-to-buy-usdt/Phillipines" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
-                    Phillipines
+              <div className="custom-min-w">
+                <Link href="/how-to-buy-usdt/Philippines" target="_blank">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
+                    Philippines
                   </p>
                 </Link>
               </div>
@@ -398,9 +398,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Spain" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Spain
                   </p>
                 </Link>
@@ -415,9 +415,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Uruguay" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Uruguay
                   </p>
                 </Link>
@@ -425,7 +425,7 @@ const CountrySelector = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col space-y-8 items-left justify-center">
+          <div className="w-full md:w-1/3 flex flex-col space-y-8 items-left justify-center">
             <div className="flex items-center">
               <div>
                 <Image
@@ -434,9 +434,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Brazil" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Brazil
                   </p>
                 </Link>
@@ -451,9 +451,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/China" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     China
                   </p>
                 </Link>
@@ -468,9 +468,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Egypt" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Egypt
                   </p>
                 </Link>
@@ -485,9 +485,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Ghana" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ghana
                   </p>
                 </Link>
@@ -502,9 +502,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/India" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     India
                   </p>
                 </Link>
@@ -519,9 +519,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Kenya" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Kenya
                   </p>
                 </Link>
@@ -536,9 +536,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Malaysia" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Malaysia
                   </p>
                 </Link>
@@ -553,9 +553,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Pakistan" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Pakistan
                   </p>
                 </Link>
@@ -570,9 +570,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Romania" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Romania
                   </p>
                 </Link>
@@ -587,9 +587,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Thailand" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Thailand
                   </p>
                 </Link>
@@ -604,9 +604,9 @@ const CountrySelector = () => {
                   className="rounded-full svg-max-flags"
                 />
               </div>
-              <div>
+              <div className="custom-min-w">
                 <Link href="/how-to-buy-usdt/Venezuela" target="_blank">
-                  <p className="text-white text-3xl text-normal text-center mt-2 mr-2">
+                  <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Venezuela
                   </p>
                 </Link>

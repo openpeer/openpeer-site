@@ -10,6 +10,13 @@
   max-height: 66%;
 }
 
+@media (min-width: 766px) and (max-width: 1290px) {
+  .custom-min-w {
+    min-width: 150px;
+  }
+}
+
+
 .svg-max-flags {
   max-width: 75%;
   max-height: 75%;
