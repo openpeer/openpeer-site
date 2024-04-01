@@ -29,10 +29,10 @@ const ThreeReasons = () => {
                         </p>
                     </div>
                     <div className="w-full">
-                        <p className="text-[#7BB1B6] text-3xl font-light mb-8 mt-4">
+                        <p className="text-[#7BB1B6] text-4xl font-light mb-8 mt-4">
                             Low Trading Fees & Zero Gas Fees
                         </p>
-                        <p className="text-white text-4xl font-light">
+                        <p className="text-white text-3xl font-light">
                             OpenPeer sponsors all gas fees on the protocol so you don’t need to pay for onchain transactions. You only need to pay a 0.3% fee when selling crypto on the protocol.
                         </p>
                     </div>
