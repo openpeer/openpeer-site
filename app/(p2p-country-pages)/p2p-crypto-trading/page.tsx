@@ -1,27 +1,25 @@
-"use client"
-import "../../background.css"
+"use client";
+import "../../background.css";
 
-import Image, { StaticImageData } from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
-import GlobeImage from "../../../public/globe.svg"
-import ButtonAnimated from "../../../components/Button/ButtonAnimated"
-import NavigationSite from "../../../components/Navigation"
-import decorationDown from '../../../public/decoration-down.svg';
-import decorationUp from '../../../public/decoration-up.svg';
-import Partners from "../../../components/Partners"
-import CountrySelectorP2P from "../../../components/CountrySelectorP2P"
+import ButtonAnimated from "../../../components/Button/ButtonAnimated";
+import NavigationSite from "../../../components/Navigation";
+import decorationDown from "../../../public/decoration-down.svg";
+import decorationUp from "../../../public/decoration-up.svg";
+import Partners from "../../../components/Partners";
+import CountrySelector from "../../../components/CountrySelector";
 
 export default function Home() {
+  const pageURL = "p2p-crypto-trading";
   return (
     <>
       <div>
-
         <NavigationSite />
 
         <div className="w-full flex mt-24 mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
           <div className="w-full relative flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
-
             <div>
               <Image
                 src={decorationUp}
@@ -37,15 +35,19 @@ export default function Home() {
                   <div className="flex justify-center items-center">
                     <p className="text-white text-5xl text-center font-extrabold m-2">
                       P2P Crypto Trading
-                     
                     </p>
                   </div>
                   <div>
                     <p className="text-white text-2xl text-center font-normal m-8">
-                      Trade crypto peer-to-peer on OpenPeer</p>
+                      Trade crypto peer-to-peer on OpenPeer
+                    </p>
                   </div>
                   <div className="flex gap-4 justify-center">
-                    <Link href="https://app.openpeer.xyz" target="_blank" className="self-start text-center">
+                    <Link
+                      href="https://app.openpeer.xyz"
+                      target="_blank"
+                      className="self-start text-center"
+                    >
                       <ButtonAnimated title="GO TO APP" />
                     </Link>
                   </div>
@@ -63,11 +65,10 @@ export default function Home() {
           </div>
         </div>
 
-        <CountrySelectorP2P />
+        <CountrySelector selectorType={pageURL} />
 
         <Partners />
-
       </div>
     </>
-  )
+  );
 }
