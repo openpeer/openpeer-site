@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
+
+
 import ButtonAnimated from "../../../../components/Button/ButtonAnimated";
 import NavigationSite from "../../../../components/Navigation";
 import decorationDown from "../../../../public/decoration-down.svg";
@@ -22,6 +24,7 @@ import coinbase from "../../../../public/wallets/coinbase.svg";
 import zerion from "../../../../public/wallets/zerion.svg";
 
 export default function Wallet({ params }: { params: { slug: string } }) {
+
   const walletsMap: { [key: string]: any } = {
     MetaMask: metamask,
     TrustWallet: trustwallet,

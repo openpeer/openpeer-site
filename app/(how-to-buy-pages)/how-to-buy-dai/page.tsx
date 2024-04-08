@@ -1,28 +1,26 @@
-"use client"
-import "../../background.css"
+"use client";
+import "../../background.css";
+import Link from "next/link";
+import Image from "next/image";
 
-import Image, { StaticImageData } from "next/image"
-import Link from "next/link"
-
-import GlobeImage from "../../../public/globe.svg"
-import ButtonAnimated from "../../../components/Button/ButtonAnimated"
-import NavigationSite from "../../../components/Navigation"
-import decorationDown from '../../../public/decoration-down.svg';
-import decorationUp from '../../../public/decoration-up.svg';
-import Partners from "../../../components/Partners"
-import CountrySelectorDAI from "../../../components/CountrySelectorDAI"
-import DAI from '../../../public/stablecoins/DAI.svg';
+import ButtonAnimated from "../../../components/Button/ButtonAnimated";
+import NavigationSite from "../../../components/Navigation";
+import decorationDown from "../../../public/decoration-down.svg";
+import decorationUp from "../../../public/decoration-up.svg";
+import Partners from "../../../components/Partners";
+import CountrySelector from "../../../components/CountrySelector";
+import DAI from "../../../public/stablecoins/DAI.svg";
 
 export default function Home() {
+  const pageURL = "how-to-buy-dai";
+
   return (
     <>
       <div>
-
         <NavigationSite />
 
         <div className="w-full flex mt-24 mb-16 md:mb-32 m-auto rounded-2xl transition-all duration-1000 hover:scale-105 backdrop-blur-lg">
           <div className="w-full relative flex p-6 md:py-16 md:px-16 space-x-8 items-center justify-center">
-
             <div>
               <Image
                 src={decorationUp}
@@ -47,10 +45,15 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-white text-2xl text-center font-normal m-8">
-                      Learn how to buy DAI by trading P2P on OpenPeer</p>
+                      Learn how to buy DAI by trading P2P on OpenPeer
+                    </p>
                   </div>
                   <div className="flex gap-4 justify-center">
-                    <Link href="https://app.openpeer.xyz" target="_blank" className="self-start text-center">
+                    <Link
+                      href="https://app.openpeer.xyz"
+                      target="_blank"
+                      className="self-start text-center"
+                    >
                       <ButtonAnimated title="GO TO APP" />
                     </Link>
                   </div>
@@ -68,11 +71,9 @@ export default function Home() {
           </div>
         </div>
 
-        <CountrySelectorDAI />
-
+        <CountrySelector selectorType={pageURL} />
         <Partners />
-
       </div>
     </>
-  )
+  );
 }
