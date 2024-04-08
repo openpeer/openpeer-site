@@ -57,7 +57,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Argentina" target="_blank">
+                <Link href="/how-to-buy-usdc/Argentina">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Argentina
                   </p>
@@ -74,7 +74,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Bulgaria" target="_blank">
+                <Link href="/how-to-buy-usdc/Bulgaria">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Bulgaria
                   </p>
@@ -91,7 +91,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Colombia" target="_blank">
+                <Link href="/how-to-buy-usdc/Colombia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Colombia
                   </p>
@@ -108,7 +108,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/France" target="_blank">
+                <Link href="/how-to-buy-usdc/France">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     France
                   </p>
@@ -125,7 +125,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Greece" target="_blank">
+                <Link href="/how-to-buy-usdc/Greece">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Greece
                   </p>
@@ -142,7 +142,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Indonesia" target="_blank">
+                <Link href="/how-to-buy-usdc/Indonesia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Indonesia
                   </p>
@@ -159,7 +159,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Latvia" target="_blank">
+                <Link href="/how-to-buy-usdc/Latvia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Latvia
                   </p>
@@ -176,7 +176,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Mexico" target="_blank">
+                <Link href="/how-to-buy-usdc/Mexico">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Mexico
                   </p>
@@ -193,7 +193,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Peru" target="_blank">
+                <Link href="/how-to-buy-usdc/Peru">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Peru
                   </p>
@@ -210,7 +210,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/South-Africa" target="_blank">
+                <Link href="/how-to-buy-usdc/South-Africa">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     South Africa
                   </p>
@@ -227,7 +227,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Turkey" target="_blank">
+                <Link href="/how-to-buy-usdc/Turkey">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Turkey
                   </p>
@@ -246,7 +246,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Australia" target="_blank">
+                <Link href="/how-to-buy-usdc/Australia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Australia
                   </p>
@@ -263,7 +263,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Cameroon" target="_blank">
+                <Link href="/how-to-buy-usdc/Cameroon">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Cameroon
                   </p>
@@ -280,7 +280,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Ecuador" target="_blank">
+                <Link href="/how-to-buy-usdc/Ecuador">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ecuador
                   </p>
@@ -297,7 +297,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Germany" target="_blank">
+                <Link href="/how-to-buy-usdc/Germany">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Germany
                   </p>
@@ -314,7 +314,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Hong-Kong" target="_blank">
+                <Link href="/how-to-buy-usdc/Hong-Kong">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Hong Kong
                   </p>
@@ -331,7 +331,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Italy" target="_blank">
+                <Link href="/how-to-buy-usdc/Italy">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Italy
                   </p>
@@ -348,7 +348,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Lebanon" target="_blank">
+                <Link href="/how-to-buy-usdc/Lebanon">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Lebanon
                   </p>
@@ -365,7 +365,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Nigeria" target="_blank">
+                <Link href="/how-to-buy-usdc/Nigeria">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Nigeria
                   </p>
@@ -382,7 +382,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Philippines" target="_blank">
+                <Link href="/how-to-buy-usdc/Philippines">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Philippines
                   </p>
@@ -399,7 +399,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Spain" target="_blank">
+                <Link href="/how-to-buy-usdc/Spain">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Spain
                   </p>
@@ -416,7 +416,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Uruguay" target="_blank">
+                <Link href="/how-to-buy-usdc/Uruguay">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Uruguay
                   </p>
@@ -435,7 +435,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Brazil" target="_blank">
+                <Link href="/how-to-buy-usdc/Brazil">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Brazil
                   </p>
@@ -452,7 +452,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/China" target="_blank">
+                <Link href="/how-to-buy-usdc/China">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     China
                   </p>
@@ -469,7 +469,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Egypt" target="_blank">
+                <Link href="/how-to-buy-usdc/Egypt">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Egypt
                   </p>
@@ -486,7 +486,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Ghana" target="_blank">
+                <Link href="/how-to-buy-usdc/Ghana">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ghana
                   </p>
@@ -503,7 +503,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/India" target="_blank">
+                <Link href="/how-to-buy-usdc/India">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     India
                   </p>
@@ -520,7 +520,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Kenya" target="_blank">
+                <Link href="/how-to-buy-usdc/Kenya">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Kenya
                   </p>
@@ -537,7 +537,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Malaysia" target="_blank">
+                <Link href="/how-to-buy-usdc/Malaysia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Malaysia
                   </p>
@@ -554,7 +554,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Pakistan" target="_blank">
+                <Link href="/how-to-buy-usdc/Pakistan">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Pakistan
                   </p>
@@ -571,7 +571,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Romania" target="_blank">
+                <Link href="/how-to-buy-usdc/Romania">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Romania
                   </p>
@@ -588,7 +588,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Thailand" target="_blank">
+                <Link href="/how-to-buy-usdc/Thailand">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Thailand
                   </p>
@@ -605,7 +605,7 @@ const CountrySelector = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/how-to-buy-usdc/Venezuela" target="_blank">
+                <Link href="/how-to-buy-usdc/Venezuela">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Venezuela
                   </p>
