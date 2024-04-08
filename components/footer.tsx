@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import logo from "../public/logo.svg";
-import twitterLogo from "../public/twitter.svg";
-import discord from "../public/discord.svg";
 
 const FooterSite = () => {
   return (
@@ -19,13 +17,11 @@ const FooterSite = () => {
         </div>
 
         <div className="flex flex-col xl:space-x-6 xl:flex-row lg:space-x-4 lg:flex-row md:flex-row md:flex-wrap md:space-x-4 md:space-y-4 md:items-start md:justify-left lg:justify-center sm:space-y-4">
-
           <div className="flex flex-col space-y-2 md:min-w-[140px] md:ml-4 md:mt-4 sm:ml-0 sm:mt-4 mb-4 md:mb-0">
             <p className="font-bold">QUICK START</p>
 
             <a
               href="https://openpeer.xyz/p2p-crypto-trading/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -35,7 +31,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/how-to-buy-usdt/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -45,7 +40,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/how-to-buy-usdc/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -55,7 +49,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/how-to-buy-eth/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -65,7 +58,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/how-to-buy-dai/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -79,7 +71,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/localbitcoins-alternative/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -89,7 +80,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/localcryptos-alternative/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -103,7 +93,7 @@ const FooterSite = () => {
 
             <a
               href="https://twitter.com/openpeer_xyz"
-              target="_blank"
+	      target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -113,7 +103,7 @@ const FooterSite = () => {
 
             <a
               href="https://discord.gg/Wrf9BT8sZN"
-              target="_blank"
+	      target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -123,7 +113,6 @@ const FooterSite = () => {
 
             <a
               href="https://blog.openpeer.xyz/introducing-openpeer-points/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -135,9 +124,8 @@ const FooterSite = () => {
           <div className="flex flex-col space-y-2 sm:mt-4 mb-4 md:mb-0">
             <p className="font-bold">RESOURCES</p>
 
-	    <a
+            <a
               href="https://blog.openpeer.xyz/"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -147,7 +135,6 @@ const FooterSite = () => {
 
             <a
               href="https://docs.openpeer.xyz"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -157,7 +144,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/terms"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -167,7 +153,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/disclaimer"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
@@ -177,7 +162,6 @@ const FooterSite = () => {
 
             <a
               href="https://openpeer.xyz/privacy-policy"
-              target="_blank"
               rel="noreferrer"
               className="text-base relative group"
             >
