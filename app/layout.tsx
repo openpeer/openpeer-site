@@ -1,5 +1,5 @@
 'use client';
-import FooterSite from '../components/footer';
+import Footer from '../components/footer';
 import Script from 'next/script';
 import './globals.css';
 
@@ -27,9 +27,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			)}
 			<body>
 				{/* Page */}
-				<div className="container mx-auto px-4">{children}</div>
+				<div className="container mx-auto px-4 overflow-hidden">{children}</div>
 				{/* Footer */}
-				<FooterSite />
+				<Footer />
 			</body>
 		</html>
 	);
