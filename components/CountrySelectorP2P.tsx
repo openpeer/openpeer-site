@@ -57,7 +57,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Argentina" target="_blank">
+                <Link href="/p2p-crypto-trading/Argentina">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Argentina
                   </p>
@@ -74,7 +74,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Bulgaria" target="_blank">
+                <Link href="/p2p-crypto-trading/Bulgaria">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Bulgaria
                   </p>
@@ -91,7 +91,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Colombia" target="_blank">
+                <Link href="/p2p-crypto-trading/Colombia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Colombia
                   </p>
@@ -108,7 +108,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/France" target="_blank">
+                <Link href="/p2p-crypto-trading/France">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     France
                   </p>
@@ -125,7 +125,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Greece" target="_blank">
+                <Link href="/p2p-crypto-trading/Greece">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Greece
                   </p>
@@ -142,7 +142,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Indonesia" target="_blank">
+                <Link href="/p2p-crypto-trading/Indonesia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Indonesia
                   </p>
@@ -159,7 +159,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Latvia" target="_blank">
+                <Link href="/p2p-crypto-trading/Latvia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Latvia
                   </p>
@@ -176,7 +176,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Mexico" target="_blank">
+                <Link href="/p2p-crypto-trading/Mexico">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Mexico
                   </p>
@@ -193,7 +193,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Peru" target="_blank">
+                <Link href="/p2p-crypto-trading/Peru">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Peru
                   </p>
@@ -210,7 +210,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/South-Africa" target="_blank">
+                <Link href="/p2p-crypto-trading/South-Africa">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     South Africa
                   </p>
@@ -227,7 +227,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Turkey" target="_blank">
+                <Link href="/p2p-crypto-trading/Turkey">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Turkey
                   </p>
@@ -246,7 +246,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Australia" target="_blank">
+                <Link href="/p2p-crypto-trading/Australia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Australia
                   </p>
@@ -263,7 +263,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Cameroon" target="_blank">
+                <Link href="/p2p-crypto-trading/Cameroon">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Cameroon
                   </p>
@@ -280,7 +280,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Ecuador" target="_blank">
+                <Link href="/p2p-crypto-trading/Ecuador">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ecuador
                   </p>
@@ -297,7 +297,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Germany" target="_blank">
+                <Link href="/p2p-crypto-trading/Germany">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Germany
                   </p>
@@ -314,7 +314,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Hong-Kong" target="_blank">
+                <Link href="/p2p-crypto-trading/Hong-Kong">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Hong Kong
                   </p>
@@ -331,7 +331,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Italy" target="_blank">
+                <Link href="/p2p-crypto-trading/Italy">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Italy
                   </p>
@@ -348,7 +348,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Lebanon" target="_blank">
+                <Link href="/p2p-crypto-trading/Lebanon">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Lebanon
                   </p>
@@ -365,7 +365,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Nigeria" target="_blank">
+                <Link href="/p2p-crypto-trading/Nigeria">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Nigeria
                   </p>
@@ -382,7 +382,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Philippines" target="_blank">
+                <Link href="/p2p-crypto-trading/Philippines">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Philippines
                   </p>
@@ -399,7 +399,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Spain" target="_blank">
+                <Link href="/p2p-crypto-trading/Spain">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Spain
                   </p>
@@ -416,7 +416,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Uruguay" target="_blank">
+                <Link href="/p2p-crypto-trading/Uruguay">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Uruguay
                   </p>
@@ -435,7 +435,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Brazil" target="_blank">
+                <Link href="/p2p-crypto-trading/Brazil">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Brazil
                   </p>
@@ -452,7 +452,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/China" target="_blank">
+                <Link href="/p2p-crypto-trading/China">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     China
                   </p>
@@ -469,7 +469,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Egypt" target="_blank">
+                <Link href="/p2p-crypto-trading/Egypt">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Egypt
                   </p>
@@ -486,7 +486,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Ghana" target="_blank">
+                <Link href="/p2p-crypto-trading/Ghana">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Ghana
                   </p>
@@ -503,7 +503,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/India" target="_blank">
+                <Link href="/p2p-crypto-trading/India">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     India
                   </p>
@@ -520,7 +520,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Kenya" target="_blank">
+                <Link href="/p2p-crypto-trading/Kenya">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Kenya
                   </p>
@@ -537,7 +537,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Malaysia" target="_blank">
+                <Link href="/p2p-crypto-trading/Malaysia">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Malaysia
                   </p>
@@ -554,7 +554,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Pakistan" target="_blank">
+                <Link href="/p2p-crypto-trading/Pakistan">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Pakistan
                   </p>
@@ -571,7 +571,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Romania" target="_blank">
+                <Link href="/p2p-crypto-trading/Romania">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Romania
                   </p>
@@ -588,7 +588,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Thailand" target="_blank">
+                <Link href="/p2p-crypto-trading/Thailand">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Thailand
                   </p>
@@ -605,7 +605,7 @@ const CountrySelectorP2P = () => {
                 />
               </div>
               <div className="custom-min-w">
-                <Link href="/p2p-crypto-trading/Venezuela" target="_blank">
+                <Link href="/p2p-crypto-trading/Venezuela">
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
                     Venezuela
                   </p>
