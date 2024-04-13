@@ -402,15 +402,15 @@ const CountrySelector = ({ selectorType }: CountrySelectorProps) => {
               <div>
                 <Image
                   src={ph}
-                  alt="Phillipines"
+                  alt="Philippines"
                   className="rounded-full svg-max-flags"
                 />
               </div>
               <div className="custom-min-w">
                 		
-                  <Link href={`/${selectorType}/Phillipines`}>
+                  <Link href={`/${selectorType}/Philippines`}>
                   <p className="text-white text-3xl text-normal text-left mt-2 mr-2">
-                    Phillipines
+                    Philippines
                   </p>
                 </Link>
               </div>
